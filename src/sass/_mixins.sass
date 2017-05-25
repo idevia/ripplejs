@@ -1,0 +1,39 @@
+// selection
+=selection($value)
+	-webkit-user-select: $value
+	-moz-user-select: $value
+	-ms-user-select: $value
+	-user-select: $value
+
+// transition
+=transition($property, $duration, $function)
+	transition:  #{$property} #{$duration} #{$function}
+	-o-transition:  #{$property} #{$duration} #{$function}
+	-moz-transition:  #{$property} #{$duration} #{$function}
+	-ms-transition:  #{$property} #{$duration} #{$function}
+	-webkit-transition:  #{$property} #{$duration} #{$function}
+
+// scale
+=scale($value)
+	transform: scale($value)
+	-webkit-transform: scale($value)
+	-moz-transform: scale($value)
+	-ms-transform: scale($value)
+	-o-transform: scale($value)
+
+//animate
+=animate($animationName, $duration, $function)
+	animation: #{$animationName} #{$duration} #{$function}
+
+// keyframes
+=keyframe ($animation)
+	@-webkit-keyframes #{$animation}
+		@content
+	@-moz-keyframes #{$animation}
+		@content
+	@-ms-keyframes #{$animation}
+		@content
+	@-o-keyframes #{$animation}
+		@content
+	@keyframes #{$animation}
+		@content

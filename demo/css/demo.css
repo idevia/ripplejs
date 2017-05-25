@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto:300,400|Baloo+Da');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+.hero{
+	width: 100%;
+	min-height: 600px;
+	padding-top: 100px;
+	background-color: #2c3e50;
+}
+.tvc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo-container{
+	border-radius: 50%;
+	width: 125px;
+	height: 125px;
+	background: url('../img/ripplejs.svg') no-repeat center center scroll;
+	background-size: cover;
+	background-color: rgba(255,255,255,0.2);
+	box-shadow: 0px 0px 0px 15px rgba(255,255,255,0.1);
+	-webkit-box-shadow: 0px 0px 0px 15px rgba(255,255,255,0.1);
+	-moz-box-shadow: 0px 0px 0px 15px rgba(255,255,255,0.1);
+}
+.logo {
+	width: 100px;
+	text-align: center;
+	margin: 0 auto;
+	display: grid;
+	margin-top: 25px;
+}
+#download-btn{
+	padding: 14px 50px;
+	margin-top: 40px;
+	padding: 12px 50px;
+	color: #f9f9f9;
+	border: 1px solid #f9f9f9;
+}
+.title{
+	margin-top:15px;
+	margin-bottom:10px;
+	color: #1abc9c;
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+}
+.sub-title{
+	margin-top:5px;
+	margin-bottom:5px;
+	font-weight: normal;
+	font-family: 'Baloo Da', cursive;
+	color: #bdc3c7;
+	font-size: 2em;
+	line-height: 1em;
+}
+.align-center{
+	text-align: center;
+}
+
+.section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.section .title{
+	font-family:'Baloo Da', cursive;
+	margin-top:15px;
+	line-height: 1em;
+}
+pre{
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-break: break-all;
+	word-wrap: break-word;
+}
+code.hljs{
+	text-align: left;
+	/*max-width:650px;*/
+	width: 80%;
+	margin: 20px auto;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.highlight{
+	margin-top: 40px;
+}
+.ripple{
+	margin-top: 5px;
+}
+.installation {
+	background-color: #f7f7f7;
+	/*padding-top: 20px;*/
+}
+.heading{
+	font-size: 1.6em;
+	font-weight: 300;
+}
+.btn-download{
+	font-size: 1.6em;
+	color: #2c3e50;
+	border: 3px solid #465a6e;
+	border-radius: 5px;
+	background-color: transparent;
+	padding: 12px 40px;
+}
+.btn-download:hover,
+.btn-download:active,
+.btn-download:focus{
+	background-color: #465a6e;
+	color: #eee;
+}
+.browser-list, .social-list {
+	list-style: none;
+	padding: 0;
+	margin: auto;
+	display: inline-block;
+}
+.browser-list li {
+	float: left;
+	width: 40px;
+	margin: 6px;
+}
+.social-list li{
+	float: left;
+	margin: 10px 5px 5px 5px;
+}
+.social-list li img{
+	height: 20px;
+	width: 40px;
+}
+img{
+	max-width: 100%;
+	-webkit-user-select: none;  -khtml-user-select: none;   -moz-user-select: none; -o-user-select: none;    user-select: none;
+}
+.note{
+	font-size: 1.3em;
+	font-weight: 300;
+	margin-top: 0px;
+}
+.version{
+	color: rgba(255,255,255,0.3);
+	font-weight: 300;
+}
+.footer{
+	background-color: #2c3e50;
+	color: rgba(255,255,255,0.4);
+}
+.footer a{
+	color: rgba(255,255,255,0.8);
+	font-weight: bold;
+	text-decoration: none;
+}
+.footer a:hover{
+	text-decoration: underline;
+}
+@media screen and (max-width: 360px) {
+	.title {
+		font-size: 45px;
+	}
+	.hero{
+		padding-top: 50px;
+	}
+}

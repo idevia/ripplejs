@@ -1,0 +1,57 @@
+.btn
+	display: inline-block
+	padding: 12px 20px
+	font-size: 13px
+	border: none
+	outline: none
+	text-align: center
+	white-space: nowrap
+	vertical-align: middle
+	letter-spacing: 0
+	font-weight: 400
+	cursor: pointer
+	overflow: hidden
+	box-sizing: border-box
+	text-decoration: none
+	font-family: inherit
+	position: relative
+
+	+selection(none)
+
+	+transition(all, 150ms, ease-in-out)
+
+// primary button
+.btn-primary
+	background-color: $primary-color
+	color: $white
+	&:hover,&:focus,&:active
+		background-color: darken($primary-color, 5%)
+
+// secondary button
+.btn-secondary
+	background-color: $secondary-color
+	color: $dark
+	border: 1px solid $gray
+	&:hover,&:focus,&:active
+		background-color: darken($secondary-color, 5%)
+
+// yellow button
+.btn-yellow
+	background-color: $yellow
+	color: $white
+	&:hover,&:focus,&:active
+		background-color: darken($yellow, 5%)
+
+// red button
+.btn-red
+	background-color: $red
+	color: $whitish
+	&:hover,&:focus,&:active
+		background-color: darken($red, 5%)
+
+// green  button
+.btn-green
+	background-color: $green
+	color: $white
+	&:hover,&:focus,&:active
+		background-color: darken($green, 5%)
