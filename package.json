@@ -1,0 +1,21 @@
+{
+  "name": "ripplejs",
+  "version": "1.0.0",
+  "description": "Ripple effect on button click",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ripplejs"
+  },
+  "keywords": [
+    "css",
+    "javascript",
+    "ripple",
+    "animation"
+  ],
+  "author": "iDevia",
+  "license": "MIT"
+}
